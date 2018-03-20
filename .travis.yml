@@ -36,7 +36,8 @@ notifications:
     on_failure: always
 deploy:
   provider: heroku
-  api_key: c2bb5939-0daf-4f5f-a9f8-e92f6d36c03b
+  api_key:
+    secure: eW8438vmUNNA98p6en/Af6Y0RmSdOp0BZ+Gjoz1e8MCAPrFDZ0ZOBJwcq1Pe8FxKtluLO9w6SE9NXhCuezk9NvfEPW9iNCKfqIDAOcqcNfSlOhU2EUGT5o3CcTfCze1WtIVuWuSzLMTvv2aEY8Ijbak1qXJCsqhwKaohRfE44PSEPFmJDUxXt5ABcwzS+/SUIfDBdu+IA9ZhggiNuACQr1r0RWDUjxfhw5e5FdwH/TjuiQFL8kHfwj41pxSHE6C1hkplPb06Xttq7UaTBcgt4X049K322UBylImyuLEgqPHLUDmlOb/3hf8AxWawfjOCNyqgSNK25Gzg/ox6bPY/PH8zZ1l91Qmyo8/uqh1i7IHU6cGW/T9mbLlBOTAQYC96A/DiIIxCtIzZYzU8rCtIkOStp3iE9lPDEyt5CXAzpjfEwvTt3Gq8CnFAnlR90jOdQSrNMRZ+4VqM3jbjrwBNbap7VibLKh0uTIIUh0AhFOQ2oRXdZps9jt3JoAT4zY7uLBSyj01Szreinb0OeIogcXEOXre9gUE3mp6Xw3Y97A9/jPjI/cwEtUz1MR/MG5AYEWZs5fcIlak9VwiUxu1x1SFOnYQ60cgbYj1Uzyn2kC68Pm08gI6irNWUQkttRUedUEeqi/lcPQxXfls+Pg6oTIz3w15nJ26svK4yOUwuzGQ=
   app: mjay-blog
   on:
     repo: mrityunjaykumar911/blog
