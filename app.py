@@ -1,5 +1,12 @@
-import os
+from flask import Flask
 
-print("Path exists %s" % os.path.exists("output"))
+app = Flask(__name__)
 
-os.system("nikola serve output")
+
+@app.route('/')
+def index():
+    return 'oks!'
+
+
+if __name__ == "__main__":
+    app.run()
