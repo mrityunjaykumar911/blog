@@ -1,8 +1,18 @@
 import os
 from http.server import HTTPServer
 
-from flask import Flask
+from flask import Flask, render_template
 from nikola.plugins.command.serve import OurHTTPRequestHandler
+
+
+class FlaskNew(Flask):
+    def run(self, host=None, port=None, debug=None, **options):
+        # super().run(host,port,debug,**options)
+        print("MJAY: ",host,port)
+        execute(address=host, port=port)
+
+
+app = FlaskNew(__name__)
 
 
 def execute(**kwargs):
@@ -15,6 +25,8 @@ def execute(**kwargs):
     else:
         os.chdir(out_dir)
         port = kwargs.get('port', 8000)
+        if port is None:
+            port = 8000
         httpd = HTTPServer((kwargs['address'], port),
                            OurHTTPRequestHandler)
         sa = httpd.socket.getsockname()
@@ -23,4 +35,4 @@ def execute(**kwargs):
 
 
 if __name__ == "__main__":
-    execute(address="127.0.0.1")
+    app.run(host="0.0.0.0")
