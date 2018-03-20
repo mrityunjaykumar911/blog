@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NIkolaDemo</title><link>http://demo.com/</link><description>demo site desc</description><atom:link href="http://demo.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:mjaycse@gmail.com"&gt;Mrityunjay&lt;/a&gt; </copyright><lastBuildDate>Tue, 20 Mar 2018 10:07:09 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>another blog for me with updated title</title><link>http://demo.com/posts/another-blog-for-me/</link><dc:creator>Mrityunjay</dc:creator><description>&lt;p&gt;Write your post here.
+this is another blog for me&lt;/p&gt;</description><category>newblog</category><category>talentica</category><guid>http://demo.com/posts/another-blog-for-me/</guid><pubDate>Thu, 08 Mar 2018 09:22:31 GMT</pubDate></item><item><title>My first blog in a century</title><link>http://demo.com/posts/my-first-blog-in-a-century/</link><dc:creator>Mrityunjay</dc:creator><description>&lt;div&gt;&lt;p&gt;Write your post here.&lt;/p&gt;
+&lt;p&gt;HI Everyone.&lt;/p&gt;
+&lt;p&gt;Learn in a classical way:&lt;/p&gt;
+&lt;p&gt;Introduction to information retrieval (Manning[1])
+Foundation of Statistical Natural language processing (Manning[2])
+Those both books from Manning will give you base and cover all the topics needed.&lt;/p&gt;
+&lt;p&gt;Apart from that if you want you can cover a course of Natural language processing by Pushpak Bhattacharyya on nptel[3].&lt;/p&gt;
+&lt;p&gt;Now best way to test your understanding is build something.&lt;/p&gt;
+&lt;p&gt;Use python and other framework to build something using NLP techniques.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;p&gt;A sentiment analysis application
+Document classifier
+May be try with all of your PDF file and see if that worked well.
+Or may be organise your bookmarks into refined categories.
+Q&amp;amp;A Based Application
+Bottom line is “Research in NLP is already rich “ and best way to reach up to the standards is to read other’s paper and try to implement it. For better understanding in sentiment analysis, please go through a very helpful case study here[4].&lt;/p&gt;
+&lt;p&gt;Good luck.&lt;/p&gt;
+&lt;p&gt;Footnotes&lt;/p&gt;
+&lt;p&gt;[1] Introduction to Information Retrieval&lt;/p&gt;
+&lt;p&gt;[2] Foundations of Statistical Natural Language Processing&lt;/p&gt;
+&lt;p&gt;[3] &lt;a class="reference external" href="http://nptel.ac.in/courses/10610"&gt;http://nptel.ac.in/courses/10610&lt;/a&gt;...&lt;/p&gt;
+&lt;p&gt;[4] &lt;a class="reference external" href="https://arxiv.org/pdf/1801.07883"&gt;https://arxiv.org/pdf/1801.07883&lt;/a&gt;...&lt;/p&gt;&lt;/div&gt;</description><guid>http://demo.com/posts/my-first-blog-in-a-century/</guid><pubDate>Wed, 07 Mar 2018 18:26:53 GMT</pubDate></item></channel></rss>

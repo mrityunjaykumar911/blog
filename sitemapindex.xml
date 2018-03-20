@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <sitemap>
+  <loc>http://demo.com/categories/cat_test_cat_2.xml</loc>
+  <lastmod>2018-03-20T10:07:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://demo.com/categories/newblog.xml</loc>
+  <lastmod>2018-03-20T10:07:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://demo.com/categories/talentica.xml</loc>
+  <lastmod>2018-03-20T10:07:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://demo.com/galleries/demo/rss.xml</loc>
+  <lastmod>2018-03-20T10:07:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://demo.com/galleries/rss.xml</loc>
+  <lastmod>2018-03-20T10:07:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://demo.com/rss.xml</loc>
+  <lastmod>2018-03-20T10:07:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://demo.com/sitemap.xml</loc>
+  <lastmod>2018-03-20T10:07:00Z</lastmod>
+ </sitemap>
+</sitemapindex>

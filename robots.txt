@@ -1,0 +1,4 @@
+Sitemap: http://demo.com/sitemapindex.xml
+
+User-Agent: *
+Host: demo.com
