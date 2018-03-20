@@ -13,11 +13,16 @@ class FlaskNew(Flask):
         def execute(**options):
             """Start test server."""
             out_dir = 'output'
+            if os.path.exists(out_dir) is False:
+                os.system('nikola build')
             if not os.path.isdir(out_dir):
-                print("Error: Missing '{0}' folder?".format(out_dir))
+                print("MJAY:\t Error: Missing '{0}' folder?".format(out_dir))
             else:
                 os.chdir(out_dir)
-                httpd = HTTPServer((options['address'], options['port']),
+                port = options['port']
+                if port is None:
+                    port = 8000
+                httpd = HTTPServer((options['address'], port),
                                    OurHTTPRequestHandler)
                 sa = httpd.socket.getsockname()
                 print("Serving HTTP on", sa[0], "port", sa[1], "...")
@@ -28,19 +33,7 @@ class FlaskNew(Flask):
 
 
 app = FlaskNew(__name__)
-# @app.route('/')
-# def index():
-#     # from nikola import __main__
-#     # import nikola
-#     # import nikola.plugins.command
-#     # import nikola.plugins.command.init
-#     # import nikola.plugins.command.serve
-#     # from nikola.plugin_categories import Command
-#
-#
-#
-#     return 'oks!'
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000)
+    app.run(host="127.0.0.1")
