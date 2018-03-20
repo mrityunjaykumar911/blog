@@ -13,8 +13,8 @@ class FlaskNew(Flask):
         def execute(**options):
             """Start test server."""
             out_dir = 'output'
-            if os.path.exists(out_dir) is False:
-                os.system('nikola build')
+            # if os.path.exists(out_dir) is False:
+            #     os.system('nikola build')
             if not os.path.isdir(out_dir):
                 print("MJAY:\t Error: Missing '{0}' folder?".format(out_dir))
             else:
@@ -36,4 +36,5 @@ app = FlaskNew(__name__)
 
 
 if __name__ == "__main__":
+    os.system('nikola build')
     app.run(host="127.0.0.1")
