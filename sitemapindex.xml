@@ -7,18 +7,18 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://demo.com/galleries/demo/rss.xml</loc>
-  <lastmod>2018-03-20T12:38:00Z</lastmod>
+  <lastmod>2018-03-20T13:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://demo.com/galleries/rss.xml</loc>
-  <lastmod>2018-03-20T12:38:00Z</lastmod>
+  <lastmod>2018-03-20T13:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://demo.com/rss.xml</loc>
-  <lastmod>2018-03-20T12:38:00Z</lastmod>
+  <lastmod>2018-03-20T13:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://demo.com/sitemap.xml</loc>
-  <lastmod>2018-03-20T12:38:00Z</lastmod>
+  <lastmod>2018-03-20T13:12:00Z</lastmod>
  </sitemap>
 </sitemapindex>
