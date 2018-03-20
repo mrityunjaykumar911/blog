@@ -1,1 +1,1 @@
-web: nikola serve
+web: nikola serve output
