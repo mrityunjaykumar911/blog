@@ -1,1 +1,1 @@
-web: nikola serve output
+web: python app.py
