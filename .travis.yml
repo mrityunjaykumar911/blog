@@ -42,3 +42,4 @@ deploy:
   on:
     repo: mrityunjaykumar911/blog
     branch: src
+
