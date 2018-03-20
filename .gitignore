@@ -1,6 +1,7 @@
 cache
 *idea*
 *.db
+*pyc
 __pycache__
 output
 id_rsa
