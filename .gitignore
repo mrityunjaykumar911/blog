@@ -1,7 +1,0 @@
-cache
-*idea*
-*.db
-__pycache__
-output
-id_rsa
-id_rsa.pub
